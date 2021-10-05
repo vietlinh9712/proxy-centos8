@@ -132,7 +132,7 @@ ifup eth0
 bash ${WORKDIR}/boot_iptables.sh
 bash ${WORKDIR}/boot_ifconfig.sh
 ulimit -n 65535
-/usr/local/etc/3proxy/bin/3proxy /usr/local/etc/3proxy/3proxy.cfg &
+/usr/local/etc/3proxy /usr/local/etc/3proxy/3proxy.cfg &
 EOF
 
 bash /etc/rc.local
